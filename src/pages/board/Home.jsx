@@ -52,7 +52,7 @@ const Home =()=>{
 
     return (
       <div className="Home">
-       <h1>전체게시물 LIST - 프론트 수정</h1>
+       <h1>전체게시물 LIST - Mixed content 해결</h1>
         {
           boards.map( (board)=> <BoardItem key={board.id} board={board}/> )
         }   
